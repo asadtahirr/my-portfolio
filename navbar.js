@@ -1,3 +1,5 @@
+import "./navbar.css";
+
 const hamburger = document.querySelector(".navbar-hamburger");
 const nav = document.querySelector(".navbar-nav");
 
