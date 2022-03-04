@@ -1,0 +1,14 @@
+article {
+  margin: 1.25rem 0;
+}
+
+.article-title {
+  font-weight: bold;
+}
+.article-date {
+  color: grey;
+}
+
+.article-body {
+  margin: 0.5rem 0;
+}
