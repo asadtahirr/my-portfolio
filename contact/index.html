@@ -5,7 +5,7 @@
     <link rel="icon" type="image/svg+xml" href="favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Vite App</title>
-    <link rel="stylesheet" href="global.css" />
+    <link rel="stylesheet" href="../global.css" />
   </head>
   <body>
     <header>
@@ -29,31 +29,34 @@
       </nav>
     </header>
     <main class="main">
-      <p>Projects</p>
-      <div class="projects-container">
-        <div class="project-card">
-          <img class="project-img" src="./assets/br-architect.jpg" alt="" />
-          <div class="project-title">BR architect</div>
-          <div class="project-description">
-            A simple landing page made using HTML, CSS and JS
-          </div>
+      <p class="main-title">Contact Me</p>
+      <form>
+        <div class="form-field">
+          <label for="name">Name</label
+          ><input type="text" name="name" id="name" placeholder="Your Name" />
         </div>
-        <div class="project-card">
-          <img class="project-img" src="./assets/colors.jpg" alt="" />
-          <div class="project-title">Colors</div>
-          <div class="project-description">
-            A random color generator made using Javascript.
-          </div>
+        <div class="form-field">
+          <label for="email">Email</label
+          ><input
+            type="email"
+            name="email"
+            id="email"
+            placeholder="hello@email.com"
+          />
         </div>
-        <div class="project-card">
-          <img class="project-img" src="./assets/cats.jpg" alt="" />
-          <div class="project-title">Cats</div>
-          <div class="project-description">
-            A simple landing page made using HTML, CSS and JS
-          </div>
+        <div class="form-field">
+          <label for="message">Message</label
+          ><textarea
+            type="text"
+            name="message"
+            id="message"
+            class="message-input"
+            placeholder="Enter your message"
+          ></textarea>
         </div>
-      </div>
+        <button class="submit-btn">Submit</button>
+      </form>
     </main>
-    <script type="module" src="/main.js"></script>
+    <script type="module" src="./contact.js"></script>
   </body>
 </html>

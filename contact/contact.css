@@ -1,0 +1,31 @@
+.main-title {
+  text-align: center;
+}
+
+form {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.form-field {
+  display: flex;
+  flex-direction: column;
+  margin: 1rem 0;
+}
+
+.form-field > * {
+  margin: 0.25rem 0;
+}
+
+.form-field input {
+  padding: 0.5rem;
+  font-size: 1.5rem;
+}
+
+.message-input {
+  font-size: 1.25rem;
+}
+
+.submit-btn {
+  padding: 0.5rem 1rem;
+}
