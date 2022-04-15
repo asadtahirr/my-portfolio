@@ -2,16 +2,18 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+    <link rel="icon" type="image/svg+xml" href="../assets/logo.png" />
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Asad Tahir - Blog</title>
+    <title>Muhammad Asad Ullah - Blog</title>
     <link rel="stylesheet" href="../global.css" />
   </head>
   <body>
     <header>
       <nav class="navbar">
         <div class="navbar-brand">
-          <a class="nav-link navbar-brand-link" href="/">Asad Tahir</a>
+          <img class="nav-logo" src="../assets/logo.png" />
+          <a class="nav-link navbar-brand-link" href="/">Muhammad Asad Ullah</a>
         </div>
         <ul class="navbar-nav">
           <li class="nav-item"><a class="nav-link" href="/">Home</a></li>
@@ -29,40 +31,52 @@
       </nav>
     </header>
     <main class="main">
-      <p class="main-title">Blog</p>
-      <section class="blog-section">
-        <article>
-          <div class="article-title">My first Article</div>
-          <div class="article-date">01-03-2022</div>
-          <div class="article-body">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione
-            neque est culpa ipsum accusamus eius possimus modi illum odit earum
-            vero nemo nesciunt, totam ea aliquam voluptatibus reiciendis aliquid
-            itaque.
+      <h3>My Blogs</h3>
+      <div class="blog-container">
+        <a href="/blog/blog-post/1/" class="blog-card">
+          <img class="blog-img" src="../assets/badminton2.png" alt="" />
+          <div class="blog-content">
+            <div class="blog-title">Badminton</div>
+            <div class="blog-description">
+              Rules, strategies, techiniques, types of shots and tips & tricks
+              of my favourite game badminton
+            </div>
           </div>
-        </article>
-        <article>
-          <div class="article-title">My second Article</div>
-          <div class="article-date">02-03-2022</div>
-          <div class="article-body">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione
-            neque est culpa ipsum accusamus eius possimus modi illum odit earum
-            vero nemo nesciunt, totam ea aliquam voluptatibus reiciendis aliquid
-            itaque.
+          <div class="blog-cred">
+            <p>20/03/2022</p>
+            <p>Asad Tahir</p>
           </div>
-        </article>
-        <article>
-          <div class="article-title">My third Article</div>
-          <div class="article-date">03-03-2022</div>
-          <div class="article-body">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione
-            neque est culpa ipsum accusamus eius possimus modi illum odit earum
-            vero nemo nesciunt, totam ea aliquam voluptatibus reiciendis aliquid
-            itaque.
+        </a>
+        <a href="/blog/blog-post/2/" class="blog-card">
+          <img class="blog-img" src="../assets/password2.png" alt="" />
+          <div class="blog-content">
+            <div class="blog-title">Password Management</div>
+            <div class="blog-description">
+              Importance of password management, hacking techiniques and tips to
+              create a safe password
+            </div>
           </div>
-        </article>
-      </section>
+          <div class="blog-cred">
+            <p>20/03/2022</p>
+            <p>Asad Tahir</p>
+          </div>
+        </a>
+        <a href="/blog/blog-post/3/" class="blog-card">
+          <img class="blog-img" src="../assets/frontend3.jpg" alt="" />
+          <div class="blog-content">
+            <div class="blog-title">Front End Technologies</div>
+            <div class="blog-description">
+              HTML & CSS, the two technologies that's been powering webpages
+              since the early days of web
+            </div>
+          </div>
+          <div class="blog-cred">
+            <p>20/03/2022</p>
+            <p>Asad Tahir</p>
+          </div>
+        </a>
+      </div>
     </main>
-    <script type="module" src="./blog.js"></script>
+    <script type="module" src="/main.js"></script>
   </body>
 </html>
