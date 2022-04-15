@@ -1,5 +1,6 @@
 .main-title {
   text-align: center;
+  margin-top: 2rem;
 }
 
 form {
@@ -28,4 +29,30 @@ form {
 
 .submit-btn {
   padding: 0.5rem 1rem;
+}
+
+.secondary {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.icon-set {
+  display: flex;
+  width: 50vw;
+  background-color: rgb(77, 76, 76);
+  padding: 1rem;
+  margin-top: 2rem;
+  border-radius: 5px;
+  justify-content: space-evenly;
+  color: white;
+  font-size: larger;
+}
+.icon-set a {
+  color: white;
+  width: 100%;
+  text-align: center;
+}
+.icon-set a:hover {
+  color: rgb(81, 225, 250);
 }
